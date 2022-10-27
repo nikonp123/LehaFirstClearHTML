@@ -1,0 +1,53 @@
+@import 'base';
+
+* {
+    box-sizing: border-box;
+    font-family: $primary-font-family;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.top-img {
+    // display: block;
+    height: 300px;
+    // background-image: url('/img/image.png');
+    // background-size: cover;
+    // background-position: center center;
+    @include background-img('../img/image.png');
+}
+
+.context__h1 {
+    text-align: center;
+    text-transform: uppercase;
+    // width: 651px;
+    // height: 26px;
+    left: 20px;
+    top: 20px;    
+}
+
+.context__btn {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.context__text {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.footer__text {
+    text-align: right;
+};
+
+
+
+@import './base/media';

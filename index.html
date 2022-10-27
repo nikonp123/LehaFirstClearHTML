@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>First.</title>
+    <link rel='stylesheet' href='./css/normalize.css'>
+    <link rel='stylesheet' href='./css/style.css'>
+</head>
+<body>
+    <header id='up' class="header">
+        <div class="container">
+            <div class="header__logo">
+                <a href="#">
+                    <img src="./icons/Lorem.png" alt="">
+                </a>
+            </div>
+            <nav>
+                <div class='container-menu'>
+                    <div class='burger'></div>
+                    <ul class='menu'></ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class='top-img'></div>
+    </div>
+    <div class="container">
+        <div class='context'>
+            <h1 class='context__h1'>Rappresent your life with a simple photo</h1>
+            <p class='context__text'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam velit est, ullamcorper a vestibulum eu, pulvinar ut orci. Donec gravida orci non suscipit consequat. Suspendisse ut dui sed tortor ultrices tempus. Phasellus dictum lectus ex, ut placerat massa pharetra at. Nullam felis dolor, volutpat nec congue eget, ornare vitae quam. In finibus urna vel molestie tempus. Duis et convallis odio, convallis porta eros. Curabitur vel leo turpis. Morbi consequat ante in odio varius hendrerit.  Vestibulum varius pretium mattis. Aliquam vulputate maximus est, quis euismod elit sodales placerat. Proin pretium arcu a odio consectetur, nec vestibulum nisi venenatis. Nulla eleifend nisi vel pretium aliquam. Cras ornare elementum vehicula. Curabitur at hendrerit nisl. Donec ligula mauris, commodo non diam et, aliquam aliquet lectus. Maecenas volutpat, nisl in consectetur condimentum, ligula mauris fringilla mauris, eu aliquet mauris ligula at orci. Cras efficitur non massa in auctor. Sed posuere leo quam, sed varius massa euismod sit amet. Proin vehicula egestas massa. Nullam tempus massa a elementum posuere. Nam ac velit ac purus vestibulum fringilla. Nunc a tortor posuere, ultrices nisi id, interdum risus. Donec laoreet tempus libero ut viverra. Proin dapibus magna vel urna ornare, et pretium metus facilisis. </p>
+            <div class='context__btn'>
+                <button data-modal='get-started' class='button button_get-startdet'>Get started</button>    
+            </div>    
+        </div>
+    </div>
+    <footer class='footer'>
+        <div class="container">
+            <img src="./icons/heart.png" alt="heart" class="footer__icon footer__icon_animated">
+            <p class='footer__text' >Copyright by phototime - all right reserved</p>
+            <div class="footer__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40642.98786357379!2d30.324250459671024!3d50.45624718854292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc904f159a6b%3A0xe273a985710ff3df!2z0JbQuNGC0L7QvNC40YDRgdC60LDRjw!5e0!3m2!1sru!2sua!4v1666246971014!5m2!1sru!2sua" width="916" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    <div class='overlay'>
+        <div class='modal' id='what-do-you-want'>
+            <div class='modal__close'>X</div>
+            <!-- <div class='modal__title'>What do you want?</div>   -->
+             
+            <!-- <form class='feed-form'> -->
+            <form action='#' class='feed-form'>
+                <label>What do you want: <input type='text' class='what-write' placeholder='write here'/></label>
+                <!-- <input type='text' class='what-write' placeholder='write here' > -->
+                <button type='submit' data-modal='what' class='button button_submit'>poke here</button>
+            </form> 
+        </div>
+        
+    </div>
+
+    <a href='#up' class='page-up'>
+        <img src='icons/circle-chevron-up-solid.svg' alt='circle-chevron-up-solid.svg'>
+    </a>
+
+    <!-- <a href='#' class='page-up-smooth'>
+        <img src="/icons/up-long-solid.svg" alt="up.svg" >
+    </a> -->
+    <button class="page-up-smooth">
+        <img src="/icons/up-long-solid.svg" alt="up.svg" >
+    </button>
+
+    <script type='module' src='../scripts/app.js'></script>
+</body>
+</html>
